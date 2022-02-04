@@ -25,10 +25,6 @@ namespace HBKate.Pages
             InitializeComponent();
         }
 
-        private void Image_MouseEnter(object sender, MouseEventArgs e)
-        {
-        }
-
         private void Image_MouseWheel(object sender, MouseWheelEventArgs e)
         {
             if (MessageBox.Show("Вам уже есть 18?", "Внимание", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
