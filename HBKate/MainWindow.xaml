@@ -1,0 +1,21 @@
+﻿<Window x:Class="HBKate.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HBKate"
+        mc:Ignorable="d"
+        Title="HBP" Height="450" Width="800" MinWidth="800" MinHeight="450" Icon="Resources/381023.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Image Source="Resources/381023.png" HorizontalAlignment="Left" Margin="5"/>
+        <TextBlock Text="{Binding Content.Title, ElementName=mainFrame}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Red" FontSize="46"/>
+
+        <Frame Grid.Row="1" Name="mainFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

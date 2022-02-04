@@ -1,0 +1,40 @@
+﻿<Page x:Class="HBKate.Pages.CentralPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:HBKate.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="04.02.2022">
+    
+    <Border BorderBrush="Red" BorderThickness="10">
+        <DockPanel>
+            <Grid DockPanel.Dock="Left">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Image Source="/HBKate;component/Resources/CIMeXKCm3O4.jpg" Grid.Row="0" HorizontalAlignment="Stretch"/>
+                <Image Source="/HBKate;component/Resources/8wsFGUtIgNM.jpg" Grid.Row="1" HorizontalAlignment="Stretch" MouseWheel="Image_MouseWheel" MouseDown="Image_MouseDown"/>
+            </Grid>
+            
+            <Image Source="/HBKate;component/Resources/6N8jABxDa4s.jpg" DockPanel.Dock="Right"/>
+
+            <StackPanel Background="LimeGreen" Margin="3">
+                <TextBlock Foreground="Red" FontSize="32" Margin="10" Text="С ДР КАТЕРИНА!!!" HorizontalAlignment="Center"/>
+                <TextBlock Foreground="Red" FontSize="24" Margin="5" Text="СЧАСТЬЯ, ЗДОРОВЬЯ, УДАЧИ, ПУСТЬ ВСЕ В ЭТОМ МИРЕ БУДЕТ ТАК, КАК ТЫ ТОЛЬКО ЗАХОЧЕШЬ, НО НЕ СРАЗУ)"/>
+                <TextBlock Foreground="Red" FontSize="24" Margin="5" Text="ПОТОМУ ЧТО ПОЛУЧАТЬ ВСЕ ПРОСТО ТАК - НЕИНТЕРЕСНО!"/>
+                <TextBlock Foreground="Red" FontSize="24" Margin="5" Text="ПУСТЬ ИСПОЛНЯЮТСЯ МЕЧТЫ"/>
+                <TextBlock Foreground="Red" FontSize="24" Margin="5" Text="ПУСТЬ БУДЕТ ЛЮБОВЬ И РАДОСТЬ"/>
+                <TextBlock Foreground="Red" FontSize="24" Margin="5" Text="ВСЕГО САМОГО НАИЛУЧШЕГО!"/>
+                <StackPanel HorizontalAlignment="Right">
+                    <TextBlock Foreground="Red" FontSize="24" Margin="5" Text="С НАИЛУЧШИМИ ПОЖЕЛАНИЯМИ,"/>
+                    <TextBlock Foreground="Red" FontSize="24" Margin="5" Text="БОГ ПРОГРАММИРОВАНИЯ"/>
+                    <TextBlock Foreground="Red" FontSize="24" Margin="5" Text="И ЛУЧШИЙ В МИРЕ ЮМОРИСТ,"/>
+                    <TextBlock Foreground="DarkRed" FontSize="24" Margin="5"  Text="SERGAT777"/>
+                </StackPanel>
+            </StackPanel>
+        </DockPanel>
+    </Border>
+</Page>
